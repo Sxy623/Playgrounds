@@ -16,16 +16,16 @@ struct CardView: View {
                 VStack(alignment: .leading) {
                     Text(category)
                         .font(.headline)
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(.secondary)
                     Text(heading)
                         .font(.title)
                         .fontWeight(.black)
-                        .foregroundColor(.primary)
+                        .foregroundStyle(.primary)
                         .lineLimit(3)
                         .minimumScaleFactor(0.5)
                     Text("Written by \(author)".uppercased())
                         .font(.caption)
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(.secondary)
                 }
                 
                 Spacer()

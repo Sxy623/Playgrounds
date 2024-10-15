@@ -7,7 +7,7 @@ struct ContentView: View {
                 VStack(alignment: .leading) {
                     Text("MONDAY, AUG 20")
                         .font(.caption)
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(.secondary)
                     Text("Your Reading")
                         .font(.system(.largeTitle, design: .rounded))
                         .fontWeight(.black)

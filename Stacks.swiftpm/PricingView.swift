@@ -13,23 +13,23 @@ struct PricingView: View {
             if let icon = icon {
                 Image(systemName: icon)
                     .font(.largeTitle)
-                    .foregroundColor(textColor)
+                    .foregroundStyle(textColor)
             }
             
             Text(title)
                 .font(.system(.title, design: .rounded))
                 .fontWeight(.black)
-                .foregroundColor(textColor)
+                .foregroundStyle(textColor)
             Text(price)
                 .font(.system(size: 40, weight: .heavy, design: .rounded))
-                .foregroundColor(textColor)
+                .foregroundStyle(textColor)
             Text("per month")
                 .font(.headline)
-                .foregroundColor(textColor)
+                .foregroundStyle(textColor)
         }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 100)
         .padding(40)
         .background(bgColor)
-        .cornerRadius(10)
+        .clipShape(RoundedRectangle(cornerRadius: 10))
     }
 }
