@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "west-vancouver-canada.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
